@@ -1,0 +1,33 @@
+.blind { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); margin: -1px; } 
+.inner {
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.btn-top.on.white,
+.btn-top,
+.sc-yearbook .card-item:hover .link-more,
+.side-nav .btn-close::before,
+.side-nav .menu-list .menu-item a::before,
+.sc-yearbook .notice-list .btn-notice.on::before,
+.sc-yearbook .notice-list .btn-notice::before,
+[class*="sc-"] .info-box .txt::after,
+header .btn-share,
+header .logo-box .logo{
+  background: url(../images/sp-common.png) no-repeat;
+  background-size: 294px 282px;
+}
+
+.sc-keyword .headline::before,
+.sc-data .icon.ic03,
+.sc-data .icon.ic02,
+.sc-data .icon.ic01,
+.sc-data .ic00,
+.sc-main .main-wrap .icon.data,
+.sc-main .main-wrap .icon.star,
+.sc-main .main-wrap .icon.band,
+.sc-main .main-wrap .icon.cursor,
+header .gnb .gnb-item a::before{
+  background: url(../images/sp-pc-v3.png) no-repeat;
+  background-size: 1241px 1124px;
+}
